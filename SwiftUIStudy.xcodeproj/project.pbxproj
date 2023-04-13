@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D0C143329E7F6F7007FCD02 /* WebviewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0C143229E7F6F7007FCD02 /* WebviewExample.swift */; };
+		2D0C143629E7F758007FCD02 /* TextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0C143529E7F758007FCD02 /* TextExample.swift */; };
+		2D0C143929E7F8AB007FCD02 /* MultilineTextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0C143829E7F8AB007FCD02 /* MultilineTextExample.swift */; };
+		2D0C143E29E7FEEF007FCD02 /* NanumPen.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D0C143D29E7FEEF007FCD02 /* NanumPen.ttf */; };
 		2DB4D57029E5249000AD6F1F /* SwiftUIStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB4D56F29E5249000AD6F1F /* SwiftUIStudyApp.swift */; };
 		2DB4D57229E5249000AD6F1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB4D57129E5249000AD6F1F /* ContentView.swift */; };
 		2DB4D57429E5249100AD6F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB4D57329E5249100AD6F1F /* Assets.xcassets */; };
@@ -14,6 +18,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D0C143229E7F6F7007FCD02 /* WebviewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewExample.swift; sourceTree = "<group>"; };
+		2D0C143529E7F758007FCD02 /* TextExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExample.swift; sourceTree = "<group>"; };
+		2D0C143829E7F8AB007FCD02 /* MultilineTextExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextExample.swift; sourceTree = "<group>"; };
+		2D0C143C29E7FE28007FCD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2D0C143D29E7FEEF007FCD02 /* NanumPen.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumPen.ttf; path = ../../../../NanumPen.ttf; sourceTree = "<group>"; };
+		2D0C144329E7FF77007FCD02 /* NanumPen.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumPen.ttf; sourceTree = "<group>"; };
 		2DB4D56C29E5249000AD6F1F /* SwiftUIStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB4D56F29E5249000AD6F1F /* SwiftUIStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyApp.swift; sourceTree = "<group>"; };
 		2DB4D57129E5249000AD6F1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D0C143429E7F72D007FCD02 /* Chapter1 */ = {
+			isa = PBXGroup;
+			children = (
+				2D0C143D29E7FEEF007FCD02 /* NanumPen.ttf */,
+				2D0C143229E7F6F7007FCD02 /* WebviewExample.swift */,
+				2D0C143529E7F758007FCD02 /* TextExample.swift */,
+				2D0C143829E7F8AB007FCD02 /* MultilineTextExample.swift */,
+			);
+			name = Chapter1;
+			path = "1주차";
+			sourceTree = "<group>";
+		};
 		2DB4D56329E5249000AD6F1F = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +73,9 @@
 		2DB4D56E29E5249000AD6F1F /* SwiftUIStudy */ = {
 			isa = PBXGroup;
 			children = (
+				2D0C143C29E7FE28007FCD02 /* Info.plist */,
+				2D0C144329E7FF77007FCD02 /* NanumPen.ttf */,
+				2D0C143429E7F72D007FCD02 /* Chapter1 */,
 				2DB4D56F29E5249000AD6F1F /* SwiftUIStudyApp.swift */,
 				2DB4D57129E5249000AD6F1F /* ContentView.swift */,
 				2DB4D57329E5249100AD6F1F /* Assets.xcassets */,
@@ -126,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DB4D57729E5249100AD6F1F /* Preview Assets.xcassets in Resources */,
+				2D0C143E29E7FEEF007FCD02 /* NanumPen.ttf in Resources */,
 				2DB4D57429E5249100AD6F1F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D0C143929E7F8AB007FCD02 /* MultilineTextExample.swift in Sources */,
 				2DB4D57229E5249000AD6F1F /* ContentView.swift in Sources */,
+				2D0C143629E7F758007FCD02 /* TextExample.swift in Sources */,
 				2DB4D57029E5249000AD6F1F /* SwiftUIStudyApp.swift in Sources */,
+				2D0C143329E7F6F7007FCD02 /* WebviewExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +298,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIStudy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIStudy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +327,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIStudy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIStudy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
