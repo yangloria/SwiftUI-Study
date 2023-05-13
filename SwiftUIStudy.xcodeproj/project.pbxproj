@@ -10,11 +10,18 @@
 		2D0C143329E7F6F7007FCD02 /* WebviewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0C143229E7F6F7007FCD02 /* WebviewExample.swift */; };
 		2D0C143629E7F758007FCD02 /* TextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0C143529E7F758007FCD02 /* TextExample.swift */; };
 		2D0C143929E7F8AB007FCD02 /* MultilineTextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0C143829E7F8AB007FCD02 /* MultilineTextExample.swift */; };
+		2D15E27F2A0F658D0024A41B /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D15E27E2A0F658D0024A41B /* ImageButton.swift */; };
+		2D15E2812A0F67430024A41B /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D15E2802A0F67430024A41B /* GradientButton.swift */; };
+		2D15E2852A0F69920024A41B /* GradientBackgroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D15E2842A0F69920024A41B /* GradientBackgroundStyle.swift */; };
+		2D15E2892A0F6AB40024A41B /* GradientButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D15E2882A0F6AB40024A41B /* GradientButtonGroup.swift */; };
+		2D15E28D2A0F6E140024A41B /* StyledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D15E28C2A0F6E140024A41B /* StyledButton.swift */; };
+		2D15E28F2A0F6FCF0024A41B /* RoleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D15E28E2A0F6FCF0024A41B /* RoleButton.swift */; };
 		2D64C64129ED01B900978D90 /* NanumPen.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D64C64029ED01B900978D90 /* NanumPen.ttf */; };
 		2DB4D57029E5249000AD6F1F /* SwiftUIStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB4D56F29E5249000AD6F1F /* SwiftUIStudyApp.swift */; };
 		2DB4D57229E5249000AD6F1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB4D57129E5249000AD6F1F /* ContentView.swift */; };
 		2DB4D57429E5249100AD6F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB4D57329E5249100AD6F1F /* Assets.xcassets */; };
 		2DB4D57729E5249100AD6F1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB4D57629E5249100AD6F1F /* Preview Assets.xcassets */; };
+		2DF9BF482A0F618D009EE06E /* ButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9BF472A0F618D009EE06E /* ButtonExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,12 +30,19 @@
 		2D0C143829E7F8AB007FCD02 /* MultilineTextExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextExample.swift; sourceTree = "<group>"; };
 		2D0C143C29E7FE28007FCD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2D0C144329E7FF77007FCD02 /* NanumPen.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumPen.ttf; sourceTree = "<group>"; };
+		2D15E27E2A0F658D0024A41B /* ImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
+		2D15E2802A0F67430024A41B /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		2D15E2842A0F69920024A41B /* GradientBackgroundStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackgroundStyle.swift; sourceTree = "<group>"; };
+		2D15E2882A0F6AB40024A41B /* GradientButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonGroup.swift; sourceTree = "<group>"; };
+		2D15E28C2A0F6E140024A41B /* StyledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledButton.swift; sourceTree = "<group>"; };
+		2D15E28E2A0F6FCF0024A41B /* RoleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleButton.swift; sourceTree = "<group>"; };
 		2D64C64029ED01B900978D90 /* NanumPen.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumPen.ttf; sourceTree = "<group>"; };
 		2DB4D56C29E5249000AD6F1F /* SwiftUIStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB4D56F29E5249000AD6F1F /* SwiftUIStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyApp.swift; sourceTree = "<group>"; };
 		2DB4D57129E5249000AD6F1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DB4D57329E5249100AD6F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DB4D57629E5249100AD6F1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DF9BF472A0F618D009EE06E /* ButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +87,7 @@
 		2DB4D56E29E5249000AD6F1F /* SwiftUIStudy */ = {
 			isa = PBXGroup;
 			children = (
+				2DF9BF462A0F6180009EE06E /* Chapter6 */,
 				2D0C143C29E7FE28007FCD02 /* Info.plist */,
 				2D0C144329E7FF77007FCD02 /* NanumPen.ttf */,
 				2D0C143429E7F72D007FCD02 /* Chapter1 */,
@@ -90,6 +105,20 @@
 				2DB4D57629E5249100AD6F1F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DF9BF462A0F6180009EE06E /* Chapter6 */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9BF472A0F618D009EE06E /* ButtonExample.swift */,
+				2D15E27E2A0F658D0024A41B /* ImageButton.swift */,
+				2D15E2802A0F67430024A41B /* GradientButton.swift */,
+				2D15E2882A0F6AB40024A41B /* GradientButtonGroup.swift */,
+				2D15E28C2A0F6E140024A41B /* StyledButton.swift */,
+				2D15E28E2A0F6FCF0024A41B /* RoleButton.swift */,
+				2D15E2842A0F69920024A41B /* GradientBackgroundStyle.swift */,
+			);
+			path = Chapter6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,8 +193,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D0C143929E7F8AB007FCD02 /* MultilineTextExample.swift in Sources */,
+				2D15E28F2A0F6FCF0024A41B /* RoleButton.swift in Sources */,
+				2D15E2812A0F67430024A41B /* GradientButton.swift in Sources */,
+				2DF9BF482A0F618D009EE06E /* ButtonExample.swift in Sources */,
+				2D15E28D2A0F6E140024A41B /* StyledButton.swift in Sources */,
 				2DB4D57229E5249000AD6F1F /* ContentView.swift in Sources */,
+				2D15E2852A0F69920024A41B /* GradientBackgroundStyle.swift in Sources */,
+				2D15E2892A0F6AB40024A41B /* GradientButtonGroup.swift in Sources */,
 				2D0C143629E7F758007FCD02 /* TextExample.swift in Sources */,
+				2D15E27F2A0F658D0024A41B /* ImageButton.swift in Sources */,
 				2DB4D57029E5249000AD6F1F /* SwiftUIStudyApp.swift in Sources */,
 				2D0C143329E7F6F7007FCD02 /* WebviewExample.swift in Sources */,
 			);
